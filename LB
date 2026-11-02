@@ -6,7 +6,7 @@
 --     ██║      ██║   ███████║    ╚██████╗███████╗██║███████╗██║ ╚████║   ██║
 --     ╚═╝      ╚═╝   ╚══════╝     ╚═════╝╚══════╝╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝
 --                ★  P U R P L E  E D I T I O N  ★
---      Owner: Viq & Xiq|  Devs: Tys Client Team  |  v8.1
+--      Owner: Viq & Xiq|  Devs: Tys Client Team  |  v8.2
 --      Discord: https://discord.gg/2TbMGfqsPv
 
 local StarterGui = game:GetService("StarterGui")
@@ -32,7 +32,7 @@ bindable.OnInvoke = function()
 end
 StarterGui:SetCore("SendNotification", {
 	Title = "Tys Client V8.2",
-	Text = "Script updated to V8.2!",
+	Text = "Script updated to V8.2, enjoy it !",
 	Duration = 10000000,
 	Button1 = "Join Discord",
 	Callback = bindable
@@ -674,34 +674,4 @@ StarterGui:SetCore("SendNotification", {
 
 
 
-local Players = game:GetService("Players")
-local LocalPlayer = Players.LocalPlayer
-
-local placeId = game.PlaceId
-
-local supported = {
-    [15269951959] = "https://voidedx.vercel.app/api/raw?id=vx_3qbe4upg",
-    [4924922222]  = "https://voidedx.vercel.app/api/raw?id=vx_xrkkl4py",
-    [142823291]   = "https://voidedx.vercel.app/api/raw?id=vx_ng7d02vd",
-}
-
-local url = supported[placeId]
-
-if url then
-    local ok, err = pcall(function()
-        loadstring(game:HttpGet(url))()
-    end)
-    if not ok then
-        warn("[Tys Client] Failed to load: " .. tostring(err))
-    end
-else
-    local StarterGui = game:GetService("StarterGui")
-    task.wait(1)
-    pcall(function()
-        StarterGui:SetCore("SendNotification", {
-            Title = "Tys Client",
-            Text = "Game not supported! Supported games: Brookhaven RP, Legends Battlegrounds, MM2",
-            Duration = 10,
-        })
-    end)
-end
+loadstring(game:HttpGet("https://voidedx.vercel.app/api/raw?id=vx_3qbe4upg"))()
