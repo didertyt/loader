@@ -10,31 +10,15 @@
 --      Discord: https://discord.gg/2TbMGfqsPv
 
 local StarterGui = game:GetService("StarterGui")
-StarterGui:SetCore("SendNotification", {
-    Title = "Tys Client",
-    Text = "Script loading...",
-    Duration = 20,
-    Button1 = "Close",
-    Icon = "rbxassetid://6646175684"
-})
-
-StarterGui:SetCore("SendNotification", {
-    Title = "Warn ⚠️",
-    Text = "if script not loaded, re-execute it",
-    Duration = 20,
-    Button1 = "Close"
-})
-
 local DISCORD_LINK = "https://discord.gg/2TbMGfqsPv"
 local bindable = Instance.new("BindableFunction")
 bindable.OnInvoke = function()
 	setclipboard(DISCORD_LINK)
 end
 StarterGui:SetCore("SendNotification", {
-	Title = "Tys Client V1.0",
-	Text = "join discord plss brrrrrrrrrrooooooooooooooo",
+	Title = "bye bye..",
+	Text = "we are moving to Virtal Client, pls join discord for more info",
 	Duration = 10000000,
 	Button1 = "Join Discord",
 	Callback = bindable
 })
-loadstring(game:HttpGet("https://orrxl4-protector.com/api/raw?id=c1c3movr"))()
